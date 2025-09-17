@@ -18,18 +18,6 @@ A Sui Move smart contract for fee rebating with partners. This contract allows r
 | **PartnerBalance** | `0x82de8f1363b78b623f6ac55e99c3af482f131135005a3fc08421bf776d4618f4` | Shared | Partner balance tracker |
 | **Partner Address** | `0x7342d6dcf26db9093a59e56071214d62a9a1440578f9a63f082b5ebc45d5bd66` | Address | Partner wallet address |
 
-## 📊 Test Cases
-
-### Case 1: Ratio-based Distribution (50%)
-- **Input**: 0.5 SUI fee
-- **Distribution**: 0.25 SUI to partner, 0.25 SUI to vault
-- **Transaction**: [View on Sui Scan](https://suiscan.xyz/testnet/tx/CuZe9reWxmCqreUnKHkkAyYpHVbdgvLfZ8tJzE58eagp)
-
-### Case 2: Fixed Amount Distribution
-- **Input**: 0.6 SUI fee, fixed amount: 0.5 SUI
-- **Distribution**: 0.5 SUI to partner, 0.1 SUI to vault
-- **Transaction**: [View on Sui Scan](https://suiscan.xyz/testnet/tx/8Wp4P6QPFzRzJpybyTajPPGMTDcfh3ytxJnpJTjQfiFi)
-
 ## 🔗 Transaction History
 
 ### Setup Transactions
